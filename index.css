@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  margin: 0 1.5rem;
+  margin: .5em 2rem;
   padding: 1em;
 }
 
@@ -49,7 +49,7 @@ body {
 .about {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 135px;
   padding-bottom: 40px; 
   max-width: 640px;
   margin: 0 auto;
@@ -65,6 +65,7 @@ body {
   font-weight: bold;
   font-size: 4rem;
   line-height: 70px;
+  margin-bottom: .5em;
 }
 
 .about > h2 {
@@ -73,7 +74,8 @@ body {
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1.625rem; 
-  line-height: 0px
+  line-height: 0px;
+  margin-bottom: 30px;
 }
 
 
@@ -84,9 +86,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 60px;
+  width: 412px;
   border-radius: 3px;
-  margin: 0 32em;
+  margin: auto;
   cursor: pointer;
+  
 }
 
 .freeTrial:hover {
@@ -102,11 +106,15 @@ body {
   font-size: 1.625rem; 
 }
 
+a {
+  text-decoration: none;
+}
+
 .genresWrapper {
   margin: 0 150px;
   overflow: hidden;
   position: relative;
-  margin-top: 150px;
+  margin-top: 170px;
 }
 
 .genres {
@@ -147,7 +155,7 @@ body {
 .genres > .genre.active {
   color: white;
   padding: 0 5px 5px;
-  padding-bottom: 0;
+  padding-bottom: 0px;
   margin: 0 15px;
   width: auto;
   cursor: pointer;
